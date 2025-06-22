@@ -8,7 +8,9 @@ const userSchema = new mongoose.Schema(
       trim: true,
       unique: true,
       index: true,
-      default: `USER_${new mongoose.Types.ObjectId().toString()}`,
+      default: () => {
+        return `USER_${new mongoose.Types.ObjectId().toString()}`;
+      },
     },
     email: { type: String, required: true, unique: true, trim: true },
     password: { type: String, required: true, trim: true },

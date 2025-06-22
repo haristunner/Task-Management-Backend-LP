@@ -7,7 +7,7 @@ const {
 const jwt = require("jsonwebtoken");
 const { validationResult } = require("express-validator");
 const bcrypt = require("bcrypt");
-const { JWT_REFRESH_TOKEN_SECRET } = require("../../config/var");
+const { JWT_REFRESH_TOKEN_SECRET, JWT_SECRET } = require("../../config/var");
 
 const registerUser = async (req, res) => {
   const errors = validationResult(req);
@@ -103,7 +103,7 @@ const loginUser = async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    
+
     return res.send({
       message: "Error occured",
       success: false,
@@ -121,7 +121,6 @@ const verifyAuthToken = async (req, res, next) => {
         message: `Authentication failure!`,
         success: false,
         data: null,
-        error_msg: error?.message,
       });
     }
 
