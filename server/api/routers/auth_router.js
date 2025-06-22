@@ -1,5 +1,9 @@
 const express = require("express");
-const { registerUser, loginUser } = require("../controllers/auth_ctrl");
+const {
+  registerUser,
+  loginUser,
+  refreshToken,
+} = require("../controllers/auth_ctrl");
 const router = express.Router();
 const { body } = require("express-validator");
 
@@ -21,5 +25,6 @@ router.post(
   ],
   loginUser
 );
+router.post("/refresh_token", refreshToken);
 
 module.exports = router;
