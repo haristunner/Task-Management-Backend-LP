@@ -1,8 +1,21 @@
 const express = require("express");
-const { PORT } = require("./config/var");
 const app = express();
 
+const mongoose = require("mongoose");
+
+const { PORT, MONGODB_URI } = require("./config/var");
 const router = require("./api/routers/index");
+
+app.use(express.json());
+
+const db = mongoose
+  .connect(MONGODB_URI)
+  .then((res) => {
+    console.log("DB connected");
+  })
+  .catch((err) => {
+    console.log("Error while connecting DB");
+  });
 
 app.use("/api", router);
 

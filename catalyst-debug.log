@@ -1,0 +1,61 @@
+[debug] [2025-06-22T08:35:51.677Z] : 
+[debug] [2025-06-22T08:35:51.678Z] : ----------------------------------------------------------------------
+[debug] [2025-06-22T08:35:51.678Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hari1\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-06-22T08:35:51.679Z] : CLI Version:  1.18.1
+[debug] [2025-06-22T08:35:51.679Z] : Platform:     win32
+[debug] [2025-06-22T08:35:51.679Z] : Node Version: v20.11.1
+[debug] [2025-06-22T08:35:51.679Z] : Time:         Sun Jun 22 2025 14:05:51 GMT+0530 (India Standard Time)
+[debug] [2025-06-22T08:35:51.679Z] : ----------------------------------------------------------------------
+[debug] [2025-06-22T08:35:51.679Z] : 
+[debug] [2025-06-22T08:35:51.972Z] : > authorizing via signed-in user option
+[debug] [2025-06-22T08:35:51.972Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-06-22T08:35:51.982Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7942000000015001 
+
+[debug] [2025-06-22T08:35:52.138Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 22 Jun 2025 08:36:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-06-22T08:35:52.141Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7942000000015001/environment 
+
+[debug] [2025-06-22T08:35:52.184Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 22 Jun 2025 08:36:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-06-22T08:35:52.340Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-06-22T08:35:52.345Z] : No basic functions to add
+[info] [2025-06-22T08:35:52.470Z] : 
+[info] [2025-06-22T08:35:52.471Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-06-22T08:35:52.471Z] : i lemonpay: http://localhost:3001
+[info] [2025-06-22T08:35:52.471Z] : 
+[debug] [2025-06-22T12:05:40.312Z] : 
+[debug] [2025-06-22T12:05:40.314Z] : ----------------------------------------------------------------------
+[debug] [2025-06-22T12:05:40.314Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hari1\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-06-22T12:05:40.314Z] : CLI Version:  1.18.1
+[debug] [2025-06-22T12:05:40.315Z] : Platform:     win32
+[debug] [2025-06-22T12:05:40.315Z] : Node Version: v20.11.1
+[debug] [2025-06-22T12:05:40.315Z] : Time:         Sun Jun 22 2025 17:35:40 GMT+0530 (India Standard Time)
+[debug] [2025-06-22T12:05:40.315Z] : ----------------------------------------------------------------------
+[debug] [2025-06-22T12:05:40.315Z] : 
+[debug] [2025-06-22T12:05:40.737Z] : > authorizing via signed-in user option
+[debug] [2025-06-22T12:05:40.738Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-06-22T12:05:40.750Z] : > refreshing access token <
+[debug] [2025-06-22T12:05:40.751Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-06-22T12:05:40.964Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 22 Jun 2025 12:05:53 GMT","content-type":"application/json;charset=UTF-8","content-length":"2392","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-06-22T12:05:40.972Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7942000000015001 
+
+[debug] [2025-06-22T12:05:41.175Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 22 Jun 2025 12:05:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-06-22T12:05:41.176Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7942000000015001/environment 
+
+[debug] [2025-06-22T12:05:41.211Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 22 Jun 2025 12:05:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-06-22T12:05:41.499Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-06-22T12:05:41.503Z] : No basic functions to add
+[info] [2025-06-22T12:05:41.699Z] : 
+[info] [2025-06-22T12:05:41.699Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-06-22T12:05:41.700Z] : i lemonpay: http://localhost:3001
+[info] [2025-06-22T12:05:41.700Z] : 
